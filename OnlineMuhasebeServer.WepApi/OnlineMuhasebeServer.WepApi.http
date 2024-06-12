@@ -1,0 +1,6 @@
+@OnlineMuhasebeServer.WepApi_HostAddress = http://localhost:5178
+
+GET {{OnlineMuhasebeServer.WepApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
