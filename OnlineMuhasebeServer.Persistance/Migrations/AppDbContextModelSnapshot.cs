@@ -159,7 +159,7 @@ namespace OnlineMuhasebeServer.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Company");
+                    b.ToTable("Company", (string)null);
                 });
 
             modelBuilder.Entity("OnlineMuhasebeServer.Domain.AppEntities.Identity.AppRole", b =>
@@ -277,7 +277,7 @@ namespace OnlineMuhasebeServer.Persistance.Migrations
 
                     b.HasIndex("CompanyId");
 
-                    b.ToTable("UserAndCompanyRelationShips");
+                    b.ToTable("UserAndCompanyRelationShips", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -16,5 +16,10 @@ namespace OnlineMuhasebeServer.Domain.AppEntities
 
         public string Email { get; set; }
 
+        public string ServerName { get; set; }
+        public string DataBaseName { get; set; }
+        public string UserId { get; set; }
+        public string Passworld { get; set; }
+
     }
 }
